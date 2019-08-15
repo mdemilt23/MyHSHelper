@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+        #an {
+          width : 300px;
+          height : 300px;
+          left : 0;
+          top:100px;
+        }
+        .background1 {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        display: block;
+        background-image: url('getter.png');
+        width: 1300px;
+        height: 1300px;
+         }
+         .background8 {
+         position: fixed;
+         left: 0;
+         z-index: 5;
+         display: block;
+         background-image: url('lovelies.jpg');
+         width: 300px;
+         height: 200px;
+          }
+          .background111 {
+          position: fixed;
+          left: 0;
+          z-index: 1;
+          display: block;
+          background-image: url('hog3.png');
+          width: 800px;
+          height:705px;
+           }
+           .backgroundblack {
+           position: fixed;
+           left: 0;
+           z-index: 2;
+           display: block;
+           background-image: url('hiya.png');
+           width: 59px;
+           height:600px;
+            }
+            .backgroundblack2 {
+            position: fixed;
+            left: 0;
+            z-index: 2;
+            display: block;
+            background-image: url('hiya.png');
+            width: 900px;
+            height:45px;
+             }
+          .background9 {
+          position: fixed;
+          left: 0;
+          z-index: 3;
+          display: block;
+          background-image: url('ellipese2.png');
+          width: 700px;
+          height: 525px;
+           }
+        .background-imag {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        display: block;
+        background-image: url('new.jpeg');
+        width: 1300px;
+        height: 420px;
+         }
+        .background-image {
+  			position: fixed;
+  			left: 0;
+  			right: 0;
+  			z-index: 4;
+  			display: block;
+  			background-image: url('logo copy.png');
+  			width: 257px;
+  			height: 300px;
+	       }
+         .background-image2 {
+   			position: fixed;
+   			left: 0;
+   			right: 0;
+   			z-index: 3;
+   			display: block;
+   			background-image: url('Shadow-PNG-Clipart2.png');
+   			width: 1300px;
+   			height: 300px;
+ 	       }
+         .background-image3 {
+   			position: fixed;
+   			top: 300;
+   			right: 0;
+   			z-index: 3;
+   			display: block;
+   			background-image: url('kl.png');
+   			width: 690px;
+   			height: 100px;
+ 	       }
+         .background-image4 {
+   			position: fixed;
+   			top: 300;
+   			right: 0;
+   			z-index: 3;
+   			display: block;
+   			background-image: url('fff.png');
+   			width: 1300px;
+   			height: 50px;
+ 	       }
+         .background-image5 {
+   			position: fixed;
+   			top: 300;
+   			right: 0;
+   			z-index: 1;
+   			display: block;
+   			background-image: url('source 2.gif');
+   			width: 1300px;
+   			height: 420px;
+ 	       }
+		    .content {
+  			position: absolute;
+  			left: 0;
+  			right: 0;
+  			z-index: 9999;
+  			margin-left: 20px;
+  			margin-right: 20px;
+			}
+    </style>
+    <script>
+      var glo = "#CB4335";
+
+      function changecolor() {
+         var listofColors = ["#CB4335","#884EA0","#5499C7","#5DADE2","#1ABC9C","#2ECC71","#F4D03F", "#F39C12","#D35400"];
+         var x = Math.floor((Math.random() * (listofColors.length-1)));
+         glo = listofColors[x];
+         document.getElementById('colors').style.color = glo;
+
+       }
+       function changecolor1() {
+            var i = 0;
+            var listofColors = [];
+            var glo = "";
+            var i=0;
+            while (i<1000){
+
+              setInterval(function(){
+              listofColors = ["#CB4335","#884EA0","#5499C7","#5DADE2","#1ABC9C","#2ECC71","#F4D03F", "#F39C12","#D35400"];
+              x=Math.floor((Math.random() * (listofColors.length-1)));
+              glo = listofColors[x];
+              document.getElementById('love').style.color = glo;
+
+            }, 1000);
+              i+=1;
+            }
+}
+
+                // var start = new Date().getTime();
+                // var end = start;
+                // while(end < start + 200) {
+                //   end = new Date().getTime();
+                // }
+
+
+
+
+
+
+
+    </script>
+
+    <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Rubik Mono One&effect=outline">
+    <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Rubik Mono One&effect=3d">
+    <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Aclonica">
+
+    <title><div STYLE = "color:white;">HS HERO</div></title>
+  </head>
+  <body id = "color" onload="changecolor1()">
+    <div STYLE="position:absolute; TOP:0px; LEFT:0;"></div>
+
+    <div class="background-image" STYLE="position:absolute; TOP:0px; LEFT:1000px;"></div>
+    <div class="background-imag" STYLE="position:absolute;"></div>
+    <div class="background-image2" STYLE="position:absolute; TOP:0px; LEFT:0px;"></div>
+    <div class="background-image3" STYLE="position:absolute;LEFT:300px;TOP:120px;"></div>
+    <div class="background-image4" STYLE="position:absolute;LEFT:0px;TOP:400px;"></div>
+    <div class="background-image5" STYLE="position:absolute; TOP:0px; LEFT:0px;"></div>
+    <div class="background111" STYLE="position:absolute; TOP:650px; LEFT:250px;"></div>
+    <div class="backgroundblack" STYLE="position:absolute; TOP:650px; LEFT:300px;"></div>
+    <div class="backgroundblack" STYLE="position:absolute; TOP:650px; LEFT:900px;"></div>
+    <div class="backgroundblack2" STYLE="position:absolute; TOP:1190px; LEFT:350px;"></div>
+    <div class="backgroundblack2" STYLE="position:absolute; TOP:650px; LEFT:350px;"></div>
+
+    <img src = "tierra.PNG" width = 300px length = 300px STYLE = "position:absolute; TOP:660px;BOTTOM: 200px;z-index:4;">
+    <img src = "shani.PNG" width = 300px length = 300px STYLE = "position:absolute; TOP: 1000px;BOTTOM:200px;z-index:4;">
+    <img src = "zoe.PNG" width = 270px length = 270px STYLE = "position:absolute; TOP: 660px;LEFT:1000px;z-index:4;">
+    <img src = "min.PNG" width= 300px length = 300px STYLE = "position:absolute; TOP: 1000px;LEFT:970px;z-index:4;">
+    <div class="content">
+    <link rel = "stylesheet" href="css.css">
+    <div STYLE = "color:white;font-size:20px;">HighSchoolHero</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href= file:///Users/girlswhocode/Desktop/java.html> <img id = "rox" STYLE="position:absolute; TOP:470px; LEFT:10px; WIDTH:300px; HEIGHT:130px" SRC="hclose.png"></a>
+    <a href= file:///Users/girlswhocode/Desktop/java.html> <img id = "rox" STYLE="position:absolute; TOP:440px; LEFT:330px; WIDTH:300px; HEIGHT:170px" SRC="dopen.png"></a>
+    <a href= file:///Users/girlswhocode/Desktop/java.html> <img id = "rox" STYLE="position:absolute; TOP:442px; LEFT:650px; WIDTH:300px; HEIGHT:170px" SRC="gopen.png"></a>
+    <a href= file:///Users/girlswhocode/Desktop/java.html> <img id = "rox" STYLE="position:absolute; TOP:430px; LEFT:960px; WIDTH:300px; HEIGHT:170px" SRC="topen1.png"></a>
+
+    <div class="font-effect-3d" STYLE = "color:white;font-size:75px;" id = "ret">HighSchool</div>
+    <div id = "love"class="font-effect-3d">HERO</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center><div STYLE = "color:white;font-size:20px;">Hello! This is a website made just for highschoolers to get into college and prepare for it. It'll teach you what students wear to interview. There's also a stress relieving game for those who are studying real hard. And there's also a test prep section!!!</div></center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <center><div STYLE = "color:white;font-size:50px;">contact us:</div></center>
+    <center><div STYLE = "color:white;font-size:20px;">lavanya.mittal@girlswhocode.com</div></center>
+    <center><div STYLE = "color:white;font-size:20px;">Amazon NYC 7 W. 34th Street, New York, NY 10001</div></center>
+    <center><div STYLE = "color:white;font-size:20px;">Phone: 1(888)-280-4331</div></center>
+
+    <audio src="bensound-punky.mp3" autoplay>
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio>
+    <b>
+      <center>
+    <p>
+    </p>
+    </center>
+
+    </b>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </body>
+</html>
